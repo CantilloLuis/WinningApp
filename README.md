@@ -1,2 +1,2 @@
-# WinningApps
+# WinningApp
 MisiónTicUdeA-Proyecto-Ciclo4 
