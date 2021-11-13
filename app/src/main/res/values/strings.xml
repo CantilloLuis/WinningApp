@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ProyectoUdeAWinningApp</string>
+    <string name="Titulo">Plaza España</string>
+    <string name="descripcion">Descripcion:</string>
+    <string name="datos_descripcion">"La Plaza de España es un grupo de obras de arquitectura, fue construida por el arquitecto Aníbal González desde 1914 y 1929 como la edificación primordial y de mayor extensión, de la Exposición Iberoamericana de 1929. Es una enorme plaza rodeada por un estanque semicircular y este a su vez por un edificio con una torre en cada extremo. Es de estilo regionalista, es decir, se basa en elementos típicos de la arquitectura sevillana, por eso el ladrillo visto es el principal elemento constructivo y su decoración se centra en el revestimiento cerámico. "</string>
+    <string name="ubicacion">Ubicacion:</string>
+    <string name="datos_ubicacion">Estás situado en el parque de María Luisa de la ciudad de Sevilla, España.</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="datos_temperatura">La temperatura varía entre 6 °C hasta 17 °C</string>
+    <string name="sitios_recomendados">Sitios recomendados:</string>
+    <string name="datos_sitios_recomendados">Casa jacinto, club allard, charca, faborit, tradicion.</string>
+
+
+</resources>
