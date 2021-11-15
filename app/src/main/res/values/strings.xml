@@ -10,5 +10,10 @@
     <string name="sitios_recomendados">Sitios recomendados:</string>
     <string name="datos_sitios_recomendados">Casa jacinto, club allard, charca, faborit, tradicion.</string>
 
+    <string name="Titulo2">Setas de la Encarnación</string>
+    <string name="datos_descripcion2">" A primera vista, es evidente que no estamos ante un diseño convencional. El proyecto, también denominado de forma oficial desde su apertura como Setas de Sevilla es una estructura en forma de pérgola de madera y hormigón ubicada en la céntrica plaza de la Encarnación de la ciudad de Sevilla. La obra, compuesta principalmente de madera laminada, está formada por una gran retícula en forma de parasol sostenida sobre seis pilares que abarcan tanto la plaza de la Encarnación como la Plaza Mayor de la ciudad. Antiguamente, la Plaza de la Encarnación albergaba el mercado del mismo nombre, el cual fue construido durante el siglo XIX"</string>
+    <string name="datos_ubicacion2">Esta obra está ubicada entre la plaza de la Encarnación y la plaza mayor de Sevilla, España.</string>
+    <string name="sitios_recomendados2">Sitios recomendados:</string>
+    <string name="datos_sitios_recomendados2">Museo Antiquarium, La torre de oro, la Giralda</string>
 
 </resources>
