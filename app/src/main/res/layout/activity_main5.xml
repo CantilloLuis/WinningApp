@@ -9,24 +9,24 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity2">
+    tools:context=".MainActivity5">
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion1"
+        android:id="@+id/textView_reales_alcazares1"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/Titulo2"
+        android:text="@string/Titulo5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView_setas_encarnacion"
+        android:id="@+id/imageView_reales_alcazares"
         android:layout_width="340dp"
         android:layout_height="239dp"
         android:layout_marginStart="24dp"
@@ -34,12 +34,12 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion1"
-        app:srcCompat="@drawable/setasdelaencarnacion"
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares1"
+        app:srcCompat="@drawable/reales"
         tools:ignore="ContentDescription" />
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion2"
+        android:id="@+id/textView_reales_alcazares2"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,51 +48,51 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView_setas_encarnacion"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_reales_alcazares"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion3"
+        android:id="@+id/textView_reales_alcazares3"
         style="@style/Texto_Normal"
-        android:layout_width="346dp"
-        android:layout_height="222dp"
+        android:layout_width="343dp"
+        android:layout_height="146dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/datos_descripcion2"
+        android:text="@string/datos_descripcion5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintHorizontal_bias="0.603"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares2"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion4"
+        android:id="@+id/textView_reales_alcazares4"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:text="@string/ubicacion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion3"
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares3"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion5"
+        android:id="@+id/textView_reales_alcazares5"
         style="@style/Texto_Normal"
-        android:layout_width="334dp"
-        android:layout_height="38dp"
+        android:layout_width="326dp"
+        android:layout_height="28dp"
         android:layout_marginTop="8dp"
-        android:text="@string/datos_ubicacion2"
+        android:text="@string/datos_ubicacion5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion4"
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares4"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion6"
+        android:id="@+id/textView_reales_alcazares6"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,11 +101,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares5"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion7"
+        android:id="@+id/textView_reales_alcazares7"
         style="@style/Texto_Normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -114,12 +114,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion6"
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares6"
         tools:ignore="MissingConstraints" />
 
     <TextView
         style="@style/Texto_titulo"
-        android:id="@+id/textView_setas_encarnacion8"
+        android:id="@+id/textView_reales_alcazares8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -127,20 +127,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares7" />
 
     <TextView
-        android:id="@+id/textView_setas_encarnacion9"
         style="@style/Texto_Normal"
+        android:id="@+id/textView_reales_alcazares9"
         android:layout_width="321dp"
         android:layout_height="27dp"
         android:layout_marginTop="4dp"
-        android:text="@string/datos_sitios_recomendados2"
+        android:text="@string/datos_sitios_recomendados5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_setas_encarnacion8" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_reales_alcazares8" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
 </ScrollView>

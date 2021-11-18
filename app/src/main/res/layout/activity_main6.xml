@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".MainActivity6">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_parque_maria_luisa1"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/san_de_los_franceses"
+        android:text="@string/Titulo6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_parque_maria_luisa"
         android:layout_width="340dp"
         android:layout_height="239dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/sandelosfranceses"
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa1"
+        app:srcCompat="@drawable/maria_luisa"
         tools:ignore="ContentDescription" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_parque_maria_luisa2"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,51 +48,51 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_parque_maria_luisa"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_parque_maria_luisa3"
         style="@style/Texto_Normal"
-        android:layout_width="347dp"
-        android:layout_height="142dp"
+        android:layout_width="343dp"
+        android:layout_height="171dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/construida_en_el_s_xviii_se_trata_de_uno_de_los_mejores_ejemplos_de_arquitectura_barroca_en_sevilla_fue_dise_ado_por_el_arquitecto_leonardo_de_figueroa_y_construido_entre_1699_y_1730_por_encargo_de_la_compa_a_de_jes_s_destaca_en_su_interior_el_retablo_y_la_cripta_la_entrada_general_es_de_4_euros_aunque_hay_numerosos_descuentos_los_sevillanos_pagan_solamente_un_euro_y_las_visitas_de_grupo_dos_euros_por_persona"
+        android:text="@string/datos_descripcion6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintHorizontal_bias="0.603"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa2"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView_parque_maria_luisa4"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:text="@string/ubicacion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.117"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa3"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView_parque_maria_luisa5"
         style="@style/Texto_Normal"
-        android:layout_width="333dp"
-        android:layout_height="21dp"
+        android:layout_width="323dp"
+        android:layout_height="22dp"
         android:layout_marginTop="8dp"
-        android:text="@string/_37_23_54_n_5_59_18_o_centro_historico"
+        android:text="@string/datos_ubicacion6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa4"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/textView_parque_maria_luisa6"
         style="@style/Texto_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -97,25 +101,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa5"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView_parque_maria_luisa7"
         style="@style/Texto_Normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/datos_temperatura"
+        android:text="@string/datos_temperatura3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.261"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa6"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView8"
         style="@style/Texto_titulo"
+        android:id="@+id/textView_parque_maria_luisa8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -123,18 +127,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa7" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView_parque_maria_luisa9"
         style="@style/Texto_Normal"
-        android:layout_width="321dp"
-        android:layout_height="42dp"
+        android:layout_width="331dp"
+        android:layout_height="50dp"
         android:layout_marginTop="4dp"
-        android:text="@string/si_quer_is_aprovechar_para_visitar_cerca_el_palacio_de_las_due_as_y_el_monasterio_de_santa_paula"
+        android:text="@string/datos_sitios_recomendados6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintTop_toBottomOf="@+id/textView_parque_maria_luisa8" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
