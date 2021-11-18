@@ -14,12 +14,11 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/Titulo2"
+        android:text="Reales Alcâzares"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="Reales Alcâzares" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -55,13 +54,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/datos_descripcion2"
+        android:text="El Real Alcázar de Sevilla es un conjunto palaciego amurallado construido en diferentes etapas históricas. El palacio original se edificó en la Alta Edad Media. Se conservan algunos vestigios de arte islámico y, de la etapa posterior a la conquista castellana, un espacio palaciego mudéjar y otro de estilo gótico. En reformas posteriores se añadieron elementos renacentistas, manieristas y barrocos."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.653"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="MissingConstraints"
-        tools:text="El Real Alcázar de Sevilla es un conjunto palaciego amurallado construido en diferentes etapas históricas. El palacio original se edificó en la Alta Edad Media. Se conservan algunos vestigios de arte islámico y, de la etapa posterior a la conquista castellana, un espacio palaciego mudéjar y otro de estilo gótico. En reformas posteriores se añadieron elementos renacentistas, manieristas y barrocos.​" />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView4"
@@ -82,12 +80,11 @@
         android:layout_width="333dp"
         android:layout_height="21dp"
         android:layout_marginTop="8dp"
-        android:text="@string/datos_ubicacion2"
+        android:text="Patio de Banderas s/n."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        tools:ignore="MissingConstraints"
-        tools:text="Patio de Banderas s/n." />
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
@@ -133,11 +130,10 @@
         android:layout_width="321dp"
         android:layout_height="42dp"
         android:layout_marginTop="4dp"
-        android:text="@string/datos_sitios_recomendados2"
+        android:text="Si queréis aprovechar para visitar la cercana Catedral y la Giralda."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        tools:text="Si queréis aprovechar para visitar la cercana Catedral y la Giralda." />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
