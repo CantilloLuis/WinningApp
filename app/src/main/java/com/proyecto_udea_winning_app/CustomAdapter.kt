@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.RatingBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
@@ -52,6 +53,7 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
 
         )
+    val rating = intArrayOf(10,5,7,8,9,3,4,5,8,6)
 
 
 
@@ -68,6 +70,8 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
         viewHolder.itemTitle.text = titles[i]
         viewHolder.itemDetail.text = details[i]
         viewHolder.itemImage.setImageResource(images[i])
+        viewHolder.itemRatin.setProgress(rating[i])
+        viewHolder.puntuacion.text = rating[i].toString()
 
 
 
@@ -127,6 +131,7 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
     }
 
     override fun getItemCount(): Int {
+
         return titles.size
     }
 
@@ -135,16 +140,18 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
         var itemImage: ImageView
         var itemTitle: TextView
         var itemDetail: TextView
+        var itemRatin: RatingBar
+        var puntuacion: TextView
 
         init {
             itemImage = itemView.findViewById(R.id.item_image)
             itemTitle = itemView.findViewById(R.id.item_title)
             itemDetail = itemView.findViewById(R.id.item_detal)
+            itemRatin = itemView.findViewById(R.id.ratingBar2)
+            puntuacion = itemView.findViewById(R.id.datos_puntuacion)
 
 
         }
-
-
 
 
     }
