@@ -10,7 +10,7 @@
     <string name="sitios_recomendados">Sitios recomendados:</string>
     <string name="datos_sitios_recomendados3">Casa jacinto, club allard, charca, faborit, tradicion.</string>
 
-    <string name="Titulo2">Setas de la Encarnación</string>
+    <string name="Titulo2">Setas de sevilla</string>
     <string name="datos_descripcion2">A primera vista, es evidente que no estamos ante un diseño convencional. El proyecto, también denominado de forma oficial desde su apertura como Setas de Sevilla es una estructura en forma de pérgola de madera y hormigón ubicada en la céntrica plaza de la Encarnación de la ciudad de Sevilla. La obra, compuesta principalmente de madera laminada, está formada por una gran retícula en forma de parasol sostenida sobre seis pilares que abarcan tanto la plaza de la Encarnación como la Plaza Mayor de la ciudad. Antiguamente, la Plaza de la Encarnación albergaba el mercado del mismo nombre, el cual fue construido durante el siglo XIX</string>
     <string name="datos_ubicacion2">Esta obra está ubicada entre la plaza de la Encarnación y la plaza mayor de Sevilla, España.</string>
     <string name="sitios_recomendados2">Sitios recomendados:</string>
@@ -47,5 +47,12 @@
     <string name="datos_descripcion11">La Isla de la Cartuja, situada en la orilla oeste del río Guadalquivir, fue la sede de la Exposición Universal de Sevilla de 1992 y actualmente, es un importante Parque tecnológico. El Ayuntamiento de la ciudad y un conjunto de entes públicos y privados están trabajando para que sea zona totalmente sostenible a corto plazo. En esta isla creada para la Exposición Universal del 92 se encuentra uno de los espacios culturales más importantes de la ciudad, el Centro Andaluz de Arte Contemporáneo, que ocupa el antiguo Monasterio de la Cartuja. </string>
     <string name="datos_ubicacion11">La isla de la Cartuja es un terreno de la ciudad de Sevilla situado entre dos brazos del río Guadalquivir, uno río vivo y el otro una dársena. "</string>
     <string name="datos_sitios_recomendados11">Alcázar - Andalusí Tapas, La Cocina de Beatriz, Bar Kebab Traviesa</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="Titulo_sivilla">Ciudad de sevilla, España</string>
+    <string name="datos_temperatura_sevilla">Los veranos suelen ser secos el termómetro se sitúa por encima de los 30 grados centígrados.</string>
+    <string name="datos_sitios_recomendados_sevilla">Museo de Bellas Artes, la Catedral, la Plaza de España, la Torre del Oro.</string>
+    <string name="datos_ubicacion_sevilla">Sevilla está situada al SO de la Península Ibérica, en el centro de la Comunidad Autónoma de Andalucía en España.</string>
+    <string name="datos_descripcion_sevilla">Sevilla está íntimamente ligada a su papel en la historia y a un patrimonio cultural enorme. Pero desde hace unos años tambié ha sabido transformarse y combinar a la perfección todo el valor de la tradición con importantes dosis de frescura e innovación; algo que no le impide mantener su personalidad, su alegría, su hospitalidad para el visitante.</string>
 
 </resources>

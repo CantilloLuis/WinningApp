@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/item1"
+            android:title="Lista de POI"
+            android:icon="@drawable/ic_list_poi"/>
+
+        <item
+            android:id="@+id/item2"
+            android:title="Configuracion"
+            android:icon="@drawable/ic_setting"/>
+    </group>
+
+
+</menu>

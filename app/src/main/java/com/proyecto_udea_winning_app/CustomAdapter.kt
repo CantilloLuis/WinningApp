@@ -53,8 +53,8 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
 
         )
-    val rating = intArrayOf(10,5,7,8,9,3,4,5,8,6)
-
+    val rating = intArrayOf(10,8,7,8,9,8,8,7,8,7)
+    val rating2 = doubleArrayOf(5.0,4.0,3.5,4.0,4.5,4.0,4.0,3.5,4.0,3.5)
 
 
 
@@ -71,7 +71,7 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
         viewHolder.itemDetail.text = details[i]
         viewHolder.itemImage.setImageResource(images[i])
         viewHolder.itemRatin.setProgress(rating[i])
-        viewHolder.puntuacion.text = rating[i].toString()
+        viewHolder.puntuacion.text = rating2[i].toString()
 
 
 

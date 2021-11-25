@@ -54,8 +54,8 @@
     <TextView
         android:id="@+id/textView_museo_bellas_artes3"
         style="@style/Texto_Normal"
-        android:layout_width="338dp"
-        android:layout_height="129dp"
+        android:layout_width="337dp"
+        android:layout_height="143dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
@@ -84,9 +84,10 @@
         style="@style/Texto_Normal"
         android:layout_width="320dp"
         android:layout_height="22dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:text="@string/datos_ubicacion7"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_museo_bellas_artes4"
         tools:ignore="MissingConstraints" />
@@ -140,6 +141,19 @@
         app:layout_constraintHorizontal_bias="0.433"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_museo_bellas_artes8" />
+
+    <Button
+        android:id="@+id/button_museo_bellas_artes"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:drawableBottom="@drawable/ic_location"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintStart_toEndOf="@+id/textView_museo_bellas_artes1"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

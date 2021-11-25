@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <PreferenceCategory app:title="Configuracion 1">
+
+       <CheckBoxPreference
+           android:title="Autorizar notificaciones"
+           android:icon="@drawable/ic_authotize"
+           app:key="checkbox"
+           app:summary="Autorizar" />
+   </PreferenceCategory>
+
+    <PreferenceCategory app:title="Configuracion 2">
+
+        <CheckBoxPreference
+            android:title="Activar sonido para las notificaciones"
+            android:icon="@drawable/ic_song"
+            app:key="checkbox"
+            app:summary="Activar sonido" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

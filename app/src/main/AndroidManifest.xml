@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.proyecto_udea_winning_app">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_winning_app_round"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_winning_app_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ProyectoUdeAWinningApp">
+        android:theme="@style/Theme.ProyectoUdeAWinningApp"
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            android:label="Settings"
+            android:parentActivityName=".MainActivity_Navigation"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity11"
             android:exported="false" />
@@ -40,7 +50,7 @@
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivity_Navigation"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
