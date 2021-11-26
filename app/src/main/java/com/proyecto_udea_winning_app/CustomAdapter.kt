@@ -1,6 +1,9 @@
 package com.proyecto_udea_winning_app
 
+import android.content.Context
 import android.content.Intent
+import android.icu.number.NumberFormatter.with
+import android.icu.number.NumberRangeFormatter.with
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,33 +14,18 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 
-class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+class CustomAdapter(
+
+    private var titles: ArrayList<String>,
+    private var details: ArrayList<String>,
+    private var images1: ArrayList<String>,
+    private var rating_int: ArrayList<Int>,
+    private var rating_double: ArrayList<Double>
 
 
-    val titles = arrayOf(
-         "Plaza España.",
-         "Setas de la Encarnación.",
-         "Iglesia san luis de los franceses.",
-         "Reales Alcazares.",
-         "Parque de María Luisa.",
-         "Museo de Bellas Artes.",
-         "La Catedral.",
-         "La torre de Giralda.",
-         "Plaza de toros de la Maestranza.",
-         "Isla de la Cartuja.")
-
-    val details = arrayOf(
-        "Ubicacion: Estás situado en el parque de María Luisa de la ciudad de Sevilla, España.",
-        "Ubicacion: Esta obra está ubicada entre la plaza de la Encarnación y la plaza mayor de Sevilla, España.",
-        "Ubicacion: Esta iglesia se encuentra ubicada en el número 27 de la calle San Luis, dividiendo los barrios de la Feria y San Julián en Sevilla, España.",
-        "Ubicacion: Patio de Banderas, s/n, 41004 Sevilla, España",
-        "Ubicacion: P.º de las Delicias, s/n, 41013 Sevilla, España",
-        "Ubicacion: Pl. del Museo, 9, 41001 Sevilla, España",
-        "Ubicacion: Av. de la Constitución, s/n, 41004 Sevilla, España",
-        "Ubicacion: Av. de la Constitución, s/n, 41004 Sevilla, España",
-        "Ubicacion: La plaza de toros de la Maestranza se encuentra en el barrio del Arenal de Sevilla, Andalucía, España.",
-        "Ubicacion: La isla de la Cartuja es un terreno de la ciudad de Sevilla situado entre dos brazos del río Guadalquivir, uno río vivo y el otro una dársena.")
+): RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     val images = intArrayOf(
         R.drawable.plaza,
@@ -51,12 +39,7 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
         R.drawable.plaza_toros,
         R.drawable.isla_cartuja,
 
-
         )
-    val rating = intArrayOf(10,8,7,8,9,8,8,7,8,7)
-    val rating2 = doubleArrayOf(5.0,4.0,3.5,4.0,4.5,4.0,4.0,3.5,4.0,3.5)
-
-
 
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
@@ -67,11 +50,13 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     override fun onBindViewHolder(viewHolder:ViewHolder, i: Int) {
 
+
         viewHolder.itemTitle.text = titles[i]
         viewHolder.itemDetail.text = details[i]
         viewHolder.itemImage.setImageResource(images[i])
-        viewHolder.itemRatin.setProgress(rating[i])
-        viewHolder.puntuacion.text = rating2[i].toString()
+        viewHolder.itemRating.setProgress(rating_int[i])
+        viewHolder.puntuacion.text = rating_double[i].toString()
+
 
 
 
@@ -140,14 +125,14 @@ class CustomAdapter: RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
         var itemImage: ImageView
         var itemTitle: TextView
         var itemDetail: TextView
-        var itemRatin: RatingBar
+        var itemRating: RatingBar
         var puntuacion: TextView
 
         init {
             itemImage = itemView.findViewById(R.id.item_image)
             itemTitle = itemView.findViewById(R.id.item_title)
             itemDetail = itemView.findViewById(R.id.item_detal)
-            itemRatin = itemView.findViewById(R.id.ratingBar2)
+            itemRating = itemView.findViewById(R.id.ratingBar2)
             puntuacion = itemView.findViewById(R.id.datos_puntuacion)
 
 

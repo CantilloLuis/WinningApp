@@ -12,8 +12,8 @@
 
 
     <RelativeLayout
-        android:layout_width="405dp"
-        android:layout_height="189dp"
+        android:layout_width="387dp"
+        android:layout_height="210dp"
         android:padding="16dp">
 
         <ImageView
@@ -48,17 +48,19 @@
             android:layout_below="@+id/item_title"
             android:layout_toEndOf="@+id/item_image"
             android:layout_toRightOf="@+id/item_image"
+            android:gravity="center_vertical"
             android:text="Detalles"
             android:textStyle="bold" />
 
         <RatingBar
             android:id="@+id/ratingBar2"
-            android:layout_width="wrap_content"
-            android:layout_height="42dp"
+            android:layout_width="238dp"
+            android:layout_height="46dp"
             android:layout_below="@+id/item_detal"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="3dp"
-
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="0dp"
             android:layout_toEndOf="@+id/item_image" />
 
         <TextView
