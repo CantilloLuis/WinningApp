@@ -1,0 +1,3 @@
+package com.proyecto_udea_winning_app.conexion_retrofit_detalle_POI
+
+class MyDataSitiosTuristicos2 : ArrayList<MyDataSitiosTuristicos2Item>()

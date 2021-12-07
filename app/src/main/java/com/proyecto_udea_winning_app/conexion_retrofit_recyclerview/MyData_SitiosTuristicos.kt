@@ -1,0 +1,3 @@
+package com.proyecto_udea_winning_app.conexion_retrofit_recyclerview
+
+class MyData_SitiosTuristicos : ArrayList<MyData_SitiosTuristicosItem>()
