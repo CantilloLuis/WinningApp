@@ -9,10 +9,16 @@
         <entry key="..\:/MISION TIC 2022/DESARROLLO MOVIL/PROYECTO/WinningApp/app/src/main/res/layout/activity_main2.xml" value="0.33" />
         <entry key="..\:/Users/Cantillo/AndroidStudioProjects/ProyectoUdeAWinningApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable/ic_contrasena.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable/ic_contrasena_icono.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable/ic_email_correo.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable/ic_winning_app_background.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable/ic_winning_app_logo_background.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/drawable/ic_winning_app_logo_oficial_background.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.22" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main.xml" value="0.184375" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main10.xml" value="0.33" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main11.xml" value="0.25" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main2.xml" value="0.22" />
@@ -23,11 +29,22 @@
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main7.xml" value="0.33" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main8.xml" value="0.33" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main9.xml" value="0.33" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_main_navigation.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_maps.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/activity_setting.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/card_layout.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/catedral.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/iglesia_san_luis.xml" value="0.184375" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/isla_cartuja.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/museo_bellas_artes.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/nav_header.xml" value="0.184375" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/parque_maria_luisa.xml" value="0.184375" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/plaza_espana.xml" value="0.184375" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/reales_alcazares.xml" value="0.184375" />
         <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/layout/torre_giralda.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/menu/nav_menu.xml" value="0.184375" />
+        <entry key="..\:/Users/Cantillo/Desktop/Mision tic Proyecto-Ciclo4/Proyecto - Ciclo 4-UdeA- sin conexion/WinningApp/app/src/main/res/xml/preference_screen.xml" value="0.184375" />
         <entry key="..\:/Users/Cantillo/Desktop/Proyecto - Ciclo 4-UdeA/WinningApp/app/src/main/res/drawable/ic_WinningApp_background.xml" value="0.1" />
         <entry key="..\:/Users/Cantillo/Desktop/Proyecto - Ciclo 4-UdeA/WinningApp/app/src/main/res/drawable/ic_authotize.xml" value="0.20052083333333334" />
         <entry key="..\:/Users/Cantillo/Desktop/Proyecto - Ciclo 4-UdeA/WinningApp/app/src/main/res/drawable/ic_winning_app_background.xml" value="0.20052083333333334" />

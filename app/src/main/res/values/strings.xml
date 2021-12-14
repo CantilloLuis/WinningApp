@@ -54,5 +54,6 @@
     <string name="datos_sitios_recomendados_sevilla">Museo de Bellas Artes, la Catedral, la Plaza de España, la Torre del Oro.</string>
     <string name="datos_ubicacion_sevilla">Sevilla está situada al SO de la Península Ibérica, en el centro de la Comunidad Autónoma de Andalucía en España.</string>
     <string name="datos_descripcion_sevilla">Sevilla está íntimamente ligada a su papel en la historia y a un patrimonio cultural enorme. Pero desde hace unos años tambié ha sabido transformarse y combinar a la perfección todo el valor de la tradición con importantes dosis de frescura e innovación; algo que no le impide mantener su personalidad, su alegría, su hospitalidad para el visitante.</string>
+    <string name="title_activity_maps">MapsActivity</string>
 
 </resources>

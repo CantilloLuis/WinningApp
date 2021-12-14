@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.proyecto_udea_winning_app">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,55 +14,77 @@
         android:theme="@style/Theme.ProyectoUdeAWinningApp"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".LoginApp.ForgotPasswordActivity"
+            android:label="Recuperar contraseña"
+            android:exported="false" />
+        <activity
+            android:name=".navigation.MainActivity_Navigation"
+            android:exported="false" />
+        <activity
+            android:name=".LoginApp.RegisterActivity"
+            android:label="Registrar"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".LoginApp.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
             android:name=".setting_activity.SettingActivity"
             android:exported="false"
             android:label="Settings"
-            android:parentActivityName=".navigation.MainActivity_Navigation"/>
+            android:parentActivityName=".navigation.MainActivity_Navigation" />
         <activity
             android:name=".main.MainActivity"
+            android:label="WinningAppMisionTic2022-UdeA"
             android:exported="false" />
         <activity
             android:name=".clases_layout.isla_cartuja"
             android:exported="false"
-            android:label="POI de Sevilla"/>
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.plaza_toros"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.torre_giralda"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.catedral"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.museo_bellas_artes"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.parque_maria_luisa"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.reales_alcazares"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.iglesia_san_luis"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.plaza_espana"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
             android:name=".clases_layout.setas_encarnacion"
-            android:label="POI de Sevilla"
-            android:exported="false" />
+            android:exported="false"
+            android:label="POI de Sevilla" />
         <activity
-            android:name=".navigation.MainActivity_Navigation"
+            android:name=".LoginApp.LoginActivity"
+            android:label="Sitios Turisticos"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

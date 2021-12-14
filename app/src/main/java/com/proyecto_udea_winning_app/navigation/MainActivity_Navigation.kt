@@ -4,9 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
+import com.proyecto_udea_winning_app.LoginApp.LoginActivity
 import com.proyecto_udea_winning_app.R
 import com.proyecto_udea_winning_app.main.MainActivity
 import com.proyecto_udea_winning_app.setting_activity.SettingActivity
@@ -44,6 +46,16 @@ class MainActivity_Navigation : AppCompatActivity() {
 
                     val intent = Intent(this, SettingActivity::class.java)
                     startActivity(intent)
+                    true
+
+                }
+
+                R.id.item3 -> {
+
+                    val intent = Intent(this, LoginActivity::class.java)
+                    startActivity(intent)
+                    Toast.makeText(this,"Muchas gracias por visitar nuestra App", Toast.LENGTH_LONG).show()
+
                     true
 
                 }

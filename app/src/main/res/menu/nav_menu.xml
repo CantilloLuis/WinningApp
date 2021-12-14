@@ -14,5 +14,13 @@
             android:icon="@drawable/ic_setting"/>
     </group>
 
+    <item android:title="log out">
+        <menu>
+            <item android:id="@+id/item3"
+                android:title="Cerrar sesion"
+                android:icon="@drawable/ic_boton_salir_a_la_aplicacion"/>
+        </menu>
+    </item>
+
 
 </menu>
